@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo List MVP</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <main class="todo-wrapper">
+        <header class="app-header">
+            <h1 class="title">✨ TODO 🚀</h1>
+        </header>
+
+        <section class="input-section">
+            <input type="text" id="new-todo" placeholder="Add a to-do item..." aria-label="Add a to-do item">
+            <button id="add-btn">Add</button>
+        </section>
+
+        <section class="main-container">
+            
+            <div class="list-header">
+                <button id="mark-all-done" class="mark-all-btn">Mark All Done</button>
+                <span class="motivational-text">Act Now, Simplify Life.☕</span>
+            </div>
+
+            <ul id="todo-list" class="todo-list">
+                <li class="todo-item">
+                    <label class="todo-content">
+                        <input type="checkbox" class="todo-checkbox">
+                        <span class="todo-text">hacer tarea</span>
+                    </label>
+                    <button class="delete-btn" aria-label="Eliminar">X</button>
+                </li>
+
+                <li class="todo-item">
+                    <label class="todo-content">
+                        <input type="checkbox" class="todo-checkbox">
+                        <span class="todo-text">hacer js</span>
+                    </label>
+                    <button class="delete-btn" aria-label="Eliminar">X</button>
+                </li>
+            </ul>
+
+            <footer class="list-footer">
+                <span id="todo-count" class="todo-count">2 items remaining</span>
+                
+                <div class="filters-container">
+                    </div>
+            </footer>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>

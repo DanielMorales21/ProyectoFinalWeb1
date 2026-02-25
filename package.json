@@ -1,0 +1,28 @@
+{
+  "name": "proyectofinalweb1",
+  "version": "1.0.0",
+  "description": "Aplicacion de to do list",
+  "homepage": "https://github.com/DanielMorales21/ProyectoFinalWeb1#readme",
+  "bugs": {
+    "url": "https://github.com/DanielMorales21/ProyectoFinalWeb1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMorales21/ProyectoFinalWeb1.git"
+  },
+  "license": "MIT",
+  "author": "Daniel Morales",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.1",
+    "pg": "^8.19.0"
+  }
+}
